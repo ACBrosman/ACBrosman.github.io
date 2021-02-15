@@ -1,0 +1,244 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>andrewbrosman.com</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    </head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="../index.html">Home</a></li>
+                    <li><a href="../About%20Me.html">About Me</a></li>
+					<li><a href="../Learn.html">Learn</a></li>
+					<li><a href="../Projects.html">Projects</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+
+		<!-- Work -->
+
+					<header>
+						
+                        <br/>
+                    <style>
+        
+                        div { 
+                            margin: auto;
+                            width: 100%;
+                            border: 2px solid pink;
+
+                            
+                        }
+    
+                    </style>
+    <!-- import font test -->
+        <style>
+            h2 {
+                font-family: Roboto, Helvetica;
+                text-align: center;
+                font-size: 32px;
+                letter-spacing: 1px
+                
+            }          
+                                    
+        </style>      
+        <style>
+        
+                        div { 
+                            margin: auto;
+                            width: 100%;
+                            border: 2px;  
+                            border-color: gainsboro;
+                            border-width: 2px;
+                            border-style: solid;
+                            padding: 15px;
+                            text-align: left;
+                            }
+                        
+                        .div2 { 
+                            margin: auto;
+                            width: 50%;
+                            border: 2px;  
+                            border-color: gainsboro;
+                            border-width: 2px;
+                            border-style: solid;
+                            padding: 15px;
+                            }
+            
+            
+            
+            
+                        .center {
+                            text-align: center;
+                            
+                        }
+    
+                        </style>         
+                        
+					</header>
+
+        <style>
+            .pictureborder{
+                border-color: dimgray;
+                border-width: 2px;
+                border-style:groove
+                
+            }
+        
+        
+        </style>
+        
+        
+        <style>
+            .center {
+                margin: 0 auto;
+                
+            }
+        
+        </style>
+        
+        <style>
+            .picadjacent{
+                text-align: left
+            }
+        </style>
+        
+        <style>
+            .span{
+                vertical-align: left;
+                
+            }
+        
+        </style>
+        <style>
+            .largertext{
+                font-size: 24px;
+                padding: 8px;
+                color: black;
+                letter-spacing: 1px;
+                font-family: serif
+            }
+        
+        </style>
+        
+            <style>
+            .containerfloat{
+                &_image {
+                    width: 300px;
+                    float: left;
+                    padding: 4px;
+                }
+                &_text {
+                    display: inline;
+                }
+            }
+        
+        </style>
+     
+        <style>
+            .textwrap {
+                float: left;
+                margin: 10px;
+                max-width: 500px;
+            }
+            .textwrapright {
+                float: right;
+                margin: 10px;
+                max-width: 500px
+                
+                
+            }
+            
+            img{
+                max-width: 50%;
+                height:auto;
+                
+                
+            }
+            myDIV{
+                
+                
+                
+            }
+        
+        </style>
+        
+        <style>
+            .blackcolor {
+                background-color:black
+            }
+        
+        </style>
+        
+        
+            <div> 
+                <h2>Dissecting the Hack</h2> 
+            </div>
+            
+    
+        <div id="blackcolor"><h3>Overview</h3> 
+            <p style="color:black">  Dissecting the Hack is what happens when you successfully mix a textbook and an action novel. The first third of the book is a well-written story about a Russian hacking syndicate and a group of juvenile hackers who end up taking them on. As different hacking techniques are used, the book provides references to the later two thirds of the book which provides more detail into how these real hacking methods are performed. Although it makes it a bit distracting to jump from story to explanation, I loved the format because it did a great job of connecting highly technical concepts to real-world actions. One of the most difficult parts of getting into Cybersecurity is that the concepts are so abstract that if you don't have any tactile experience they end up going over your head (at least mine).</p>
+            <p style="color:black">
+            As part of this post, I want to breakdown the last two thirds of the book by going through a typical attacker framework (other commonly known frameworks include the Lockheed Cyber Kill Chain or the MITRE ATT&CK Framework) The intention of this post isn't to teach you to hack but rather to better protect your systems by walking you through an attacker mindset. The best defense is a good offense. Many of these techniques can be used against your own networks to provide valuable information around your own exploitability.</p>
+            </div>
+        
+        
+            <div>
+            <h3>
+            Reconnaissance
+            </h3>
+            <p style="color:black">
+            The most sophisticated hackers don't just hack haphazardly, they spend a lot of time researching a suitable target before they attack. Just as a burglar spends time scoping a house to determine how difficult it would be to break in, a hacker spends time finding a target that won't be too much of a headache and will get them the most bang for their buck. Below are some of the methods used to perform reconnaissance.
+            </p>
+            <p style="color:black">
+                <h4> Social Networking</h4>   
+               <img src="../images/best-social-networking-sites.jpg" class="textwrap"> With nearly everyone having a web presence, a simple Google and social media search can unearth a wealth of information. In looking for an easily exploitable target, company employees are usually the first place to look. Specifically, employees with something to hide or who post a little too much. Maybe it's a gambling debt or a drug addiction, whatever the pressure point, these weaknesses are exploitable by an attacker. The truth is, these pressure points don't even have to be real, sometimes a simple threat, "I'll tell your wife about your secret", can be sufficient to put pressure on the victim. That being said, the carrot is always better than the stick. In every company there is an unhappy employee who with a bit of prodding can come around to your objectives. To assure success however, the stick is nice to have in your back pocket.
+                <p>
+                Another method to find a suitable target through social networking is by looking for employee leaks. Let's say an employee posts a joke about how their servers are so old they use software from 1998 or even indirectly mentions a programming language they've been studying up on for an upcoming implementation. We can put pieces of information together to infer outdated hardware or to better design our exploits for a particular programming language. 
+                </p>
+                </div>
+                <div class="myDIV">  <p style="color:black">
+                <h4> Google Hacking</h4>   
+                <img src="../images/GoogleHack.PNG" class="textwrapright">
+                With nearly everyone having a web presence, a simple Google and social media search can unearth a wealth of information. In looking for an easily exploitable target, company employees are usually the first place to look. Specifically, employees with something to hide or who post a little too much. Maybe it's a gambling debt or a drug addiction, whatever the pressure point, these weaknesses are exploitable by an attacker. The truth is, these pressure points don't even have to be real, sometimes a simple threat, "I'll tell your wife about your secret", can be sufficient to put pressure on the victim. That being said, the carrot is always better than the stick. In every company there is an unhappy employee who with a bit of prodding can come around to your objectives. To assure success however, the stick is nice to have in your back pocket.
+                <p>
+                Another method to find a suitable target through social networking is by looking for employee leaks. Let's say an employee posts a joke about how their servers are so old they use software from 1998 or even indirectly mentions a programming language they've been studying up on for an upcoming implementation. We can put pieces of information together to infer outdated hardware or to better design our exploits for a particular programming language. 
+                </p>
+
+                </div>
+           
+            
+     
+			
+
+                
+						<div class="center">
+						<a href="Projects.html" class="button large scrolly" style="margin: auto">See some of my recent work</a>
+                        </div>
+					
+
+		
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
