@@ -1,0 +1,353 @@
+<!DOCTYPE HTML>
+<!--
+	Miniport by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>andrewbrosman.com</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+    </head>
+	<body class="is-preload">
+
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="../index.html">Home</a></li>
+                    <li><a href="../About%20Me.html">About Me</a></li>
+					<li><a href="../Learn.html">Learn</a></li>
+					<li><a href="../Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+
+		<!-- Work -->
+
+					<header>
+						
+                        <br/>
+                    <style>
+        
+                        div { 
+                            margin: auto;
+                            width: 85%;
+                            border: 2px solid pink;
+
+                            
+                        }
+    
+                    </style>
+    <!-- import font test -->
+        <style>
+            h2 {
+                font-family: Roboto, Helvetica;
+                text-align: center;
+                font-size: 32px;
+                letter-spacing: 1px
+                
+            }          
+                                    
+        </style>      
+        <style>
+        
+                        div { 
+                            margin: auto;
+                            width: 65%;
+                            border: 2px;  
+                            border-color: gainsboro;
+                            border-width: 2px;
+                            padding: 10px;
+                            text-align: left;
+                            }
+                        
+                        .div2 { 
+                            margin: auto;
+                            width: 50%;
+                            border: 2px;  
+                            border-color: gainsboro;
+                            border-width: 2px;
+                            border-style: solid;
+                            padding: 15px;
+                            }
+            
+            
+            
+            
+                        .center {
+                            text-align: center;
+                            
+                        }
+    
+                        </style>         
+                        
+					</header>
+
+        <style>
+            .pictureborder{
+                border-color: dimgray;
+                border-width: 2px;
+                border-style:groove
+                
+            }
+        
+        
+        </style>
+        
+        
+        <style>
+            .center {
+                margin: 0 auto;
+                
+            }
+        
+        </style>
+        
+        <style>
+            .picadjacent{
+                text-align: left
+            }
+        </style>
+        
+        <style>
+            .span{
+                vertical-align: left;
+                
+            }
+        
+        </style>
+        <style>
+            .largertext{
+                font-size: 24px;
+                padding: 8px;
+                color: black;
+                letter-spacing: 1px;
+                font-family: serif
+            }
+        
+        </style>
+        
+            <style>
+            .containerfloat{
+                &_image {
+                    width: 300px;
+                    float: left;
+                    padding: 4px;
+                }
+                &_text {
+                    display: inline;
+                }
+            }
+        
+        </style>
+     
+        <style>
+            .textwrap {
+                float: left;
+                margin: 10px;
+                max-width: 400px;
+            }
+            .textwrapright {
+                float: right;
+                margin: 10px;
+                max-width: 400px
+                
+                
+            }
+            
+            img{
+                max-width: 50%;
+                height:auto;
+                width: auto;
+                
+                
+            }
+            myDIV{
+                
+                
+                
+            }
+        
+        </style>
+        
+        <style>
+            .blackcolor {
+                background-color:black
+            }
+        
+        </style>
+        
+        
+            <div> 
+                <h2 style="font-size: 8vw">Waiting, Waiting, Waiting...</h2> <h2 style="font-size: 8vw"> Hack</h2>
+                <h3 style="text-align: center; padding-top: 10px">Is there a right time for breach notification?</h3>
+            </div>
+            
+    
+        <div id="blackcolor"><h3 style=" padding-top: 80px; font-size: 3vw">Overview</h3> 
+            <p style="color:black">  Dissecting the Hack is what happens when you successfully mix a textbook and an action novel. The first third of the book is a well-written story about a Russian hacking syndicate and a group of juvenile hackers who end up taking them on. As different hacking techniques are used, the book provides references to the later two thirds of the book which provides more detail into how these real hacking methods are performed. Although it makes it a bit distracting to jump from story to explanation, I loved the format because it did a great job of connecting highly technical concepts to real-world actions. One of the most difficult parts of getting into Cybersecurity is that the concepts are so abstract that if you don't have any tactile experience they end up going over your head (at least mine).</p>
+            <p style="color:black">
+            As part of this series of posts, I want to breakdown the last two thirds of the book by going through a typical attacker framework (other commonly known frameworks include the Lockheed Cyber Kill Chain or the MITRE ATT&CK Framework) The intention of this post isn't to teach you to hack but rather to better protect your systems by walking you through an attacker mindset. The best defense is a good offense. Many of these techniques can be used against your own networks to provide valuable information around your own exploitability.</p>
+            </div>
+        
+        
+            <div>
+            <h3 style="font-size:3vw">
+            Reconnaissance
+            </h3>
+            <p style="color:black">
+            The most sophisticated hackers don't just hack haphazardly, they spend a lot of time researching a suitable target before they attack. Just as a burglar spends time scoping a house to determine how difficult it would be to break in, a hacker spends time finding a target that won't be too much of a headache and will get them the most bang for their buck. Below are some of the methods used to perform reconnaissance.
+            </p>
+          
+                <h5> Social Networking</h5>   
+               <img src="../images/best-social-networking-sites.jpg" class="textwrap"> 
+                  <p style="color:black">
+                
+                With nearly everyone having a web presence, a simple Google and social media search can unearth a wealth of information. In looking for an easily exploitable target, company employees are usually the first place to look. Specifically, employees with something to hide or who post a little too much. Maybe it's a gambling debt or a drug addiction, whatever the pressure point, these weaknesses are exploitable by an attacker. The truth is, these pressure points don't even have to be real, sometimes a simple threat, "I'll tell your wife about your secret", can be sufficient to put pressure on the victim. That being said, the carrot is always better than the stick. In every company there is an unhappy employee who with a bit of prodding can come around to your objectives. To assure success however, the stick is nice to have in your back pocket.
+                <p style="color:black">
+                Another method to find a suitable target through social networking is by looking for employee leaks. Let's say an employee posts a joke about how their servers are so old they use software from 1998 or even indirectly mentions a programming language they've been studying up on for an upcoming implementation. We can put pieces of information together to infer outdated hardware or to better design our exploits for a particular programming language. 
+                </p>
+         
+               
+                <h4> Google Hacking</h4>   
+                <img src="../images/GoogleHack.PNG" class="textwrapright">
+                <p style="color:black">
+                The next place we'll want to look for information, naturally, is Google (although nearly any search engine will work). Although everyone knows what "Googling" is, most don't know that there are advanced capabilities which we can leverage to find a suitable target. We can use keywords which indicate vulnerable software or even sensitive data to find a valuable target. You can visit the Exploit Database at "https://www.exploit-db.com/google-hacking-database" for a list of newly found search queries which return interesting sites such as obscure login portals. Beyond these, there are advanced search operators which can help you query sites and help you lock in to a target. For instance 
+                <table style="width:100%" style="border-left: : 1px solid #804141">
+                      <tr>
+                        <th style="border: 1px solid grey; width: 8%; padding-left:5px; color:black">Search Operator</th>
+                        <th style="border: 1px solid grey; width: 25%; padding-left:5px;color:black">Description</th>
+                      </tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">site:</td>
+                        <td>Limits all search results to a single domain name and the pages contained within it. Works well to get a map of a domain, ensure you don't leave a space after the search operator.</td>
+                      </tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">inurl:</td>
+                        <td>Searches for the keyword in the Web page's URL. Works</td>
+                      </tr>
+                 <tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">file type:</td>
+                        <td>Limit search to a specific file type, for example PDFs within a website</td>
+                      </tr>                                 <tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">intitle:</td>
+                        <td>Searches for the keyword in the title of the Web page</td>
+                      </tr>  
+                                     <tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">intext:</td>
+                        <td>Specifies that the keyword must appear within the text of the web page</td>
+                      </tr>  
+                                     <tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">inanchor:</td>
+                        <td>Searches for the keyword only within HyperText Markup Language (HTML) anchors (page links)</td>
+                      </tr>  
+                                     <tr>
+                      <tr style="border: 1px solid grey; padding-left:10px">
+                        <td style="padding-left:5px">link:</td>
+                        <td>Searches for web pages that point to the specified URL. Works alright, you can also find this in the Google Search Console</td>
+                      </tr>  
+                    
+                    <tr style="border: 1px solid grey; padding-left:10px">
+                    <td style="padding-left:5px">ext:</td>
+                    
+                    <td>Searches for web documents that have the specified file extension</td>
+                          </tr> 
+                <tr style="border: 1px solid grey; padding-left:10px">
+                <td style="padding-left:5px">cache:</td>
+                        <td>Searches for the specified URL in Google's archived cache. This can actually now be done by clicking on the hamburger menu next to a URL and clicking "cached"or by using tools such as the Wayback machine. </td>
+                      </tr> 
+                    </table>
+                
+            </p>
+
+                </div>
+           
+            <div>
+    <p style="color:black"> Note, these search operators can be mixed and matched, order doesn't really matter here. Additionally, you can add quotation marks to search terms for an exact match or to narrow in on a search operator. Putting this all together, a search of: 
+        <p style="vertical-align: middle; text-align: center; color: black; font-size: 20px">site:dogs.com inurl:team filetype:jpg"</p>
+        <p style="color:black"> Would search for images in a JPG format on dogs.com whose file path contains the term "team". You could also remove the InURL search query to search the entire web for JPGs with "team" in the file path. A lot of these tools have been integrated within Google's Search Console Tools and are mainly geared at search optimization. That being said, the Console Tools won't necessarily help you narrow in on a target so these search operators are still valuable. For instance, if we're looking for an email address, phone number, or address, perhaps we use the "inurl" search operator to find a "contact" page. We could narrow our search even more by adding an extension or location such as "Champaign, Illinois" to the tail end of our "site:" search operator to limit our search to locations in our area. 
+                </p>
+        <p style="color:black">
+        A particularly stealthy tool is "cache:" which actually pulls the site from Google's server rather than the site's web server. Google maintains a copy of most websites in their servers, called a cached website. This is helpful to us because everytime you access a company's site, they keep a record within their web server logs that your IP accessed the site. As a result, most attackers obscure their IP through relaying proxies. Using the cache search or the Wayback Machine allows you to perform these searches without leaving a trace. When sites first go up, they tend to provide as much information as possible to gain interest but as they grow, security starts to become a concern and they start stripping out this valuable data. The cache search operator or Wayback Machine give us a glimpse into the past versions of the site where this information may still be present. From a business standpoint, you can perform these searches on your own domains to see what type of information is easily available to the public an to protect yourself accordingly. Other helpful links to expand on this knowledge follow:
+            <ul>
+                <li>google.com/help/cheatsheet.html</li>
+                <li>exploit-db.com/google-hacking-database</li>
+                
+                
+                </ul>
+            
+            
+                </p>
+    
+    
+    
+    </div>
+    <div>
+ <h4> Deep Web Searching</h4>   
+                <img src="../images/deepweb.jpg" class="textwrap">
+                <p style="color:black">	
+                Once we've identified a potential target, we next work to learn every detail we can about the mark. Physical locations, phone numbers, lists of employees and so on. Luckily for us, a lot of this information is captured in what is called the "Deep Web", think the content that hides beyond a login screen. For example, getting to a banking site would be navigating to the surface web while everything past that login screen (bank accounts) is part of the Deep Web. There are numerous publicly available databases which capture and store business information which we'll want to take a look at for some additional intel.     
+        </p>
+        <p style="color:black">
+        A great starting point is the Electronic Data-Gathering, Analysis, and Retrieval (EDGAR) database managed by the Securities and Exchange Commission (SEC) at sec.gov/edgar.shtml. All publicly traded US companies must submit regular updates on their business operations and this information is freely available. So what are we looking for? Physical addresses, a list of employees, through correspondences, partner organizations or vendors with more lax security which can serve as an entry point. These types of reports aren't limited to the US either, many countries have their own systems to track traded companies which can supplement findings. 
+        </p>
+        <p style="color:black">
+        Another great place to look is state taxation databases. Each state is different but many have publicly available searchable databases. After finding a corporate address through EDGAR, we can use these databases to find additional details such as property ownership.
+        </p>
+        <p style="color:black">
+        Finally, surface web findings such as press releases  can tell you about new partnerships, facilities, or software. What this should tell you as a business owner is that consideration is required in what you reveal, as it could be used against you. Generally, avoid revealing anything regarding the security measures you have or plan to have in place. This level of detail is prime fodder for an attacker.
+        
+        </p>
+    
+        
+        </div>   
+
+ <div>
+ <h4>Physical Surveillance</h4>   
+                <img src="../images/camera.jpg" class="textwrapright">
+<p style="color:black">	
+The easiest to understand reconnaissance technique is also the riskiest, physical surveillance. In 2021, cameras the size of a fingernail with high definition recording can be had for less than $20, so it's safe to assume that if you can think it, a camera can hide inside it. For instance, you could plant a few cameras outside or even inside a warehouse then come back a few days later and wirelessly collect the footage. Even better, have them connect to the local McDonalds Wi-FI and upload the footage to the cloud. But why? What do we get out of surveillance footage? We get a deeper understanding of the day to day to plan our attack. When employees come to work, where they sit, security systems, suppliers, and more. Kind of risky though, a good place to start is to see if you can exploit in-place surveillance systems. Many businesses use off the shelf security systems that haven't been properly secured and are publicly accessible. Shodan.io or GHDB (described earlier) for instance can serve up publicly available surveillance systems. Using search operators, specific surveillance system manufacturers can even be found through a few Google searches. As a business owner, in addition to utilizing surveillance systems, ensuring cameras have adequate storage, that backups are encrypted and retained for at least a year, and that cameras have backup power goes a long way towards maintaining visibility. Additionally, consider periodic walkthroughs of facilities to identify blind spots where cameras don't have visibility. At a minimum, cameras at entry and exit points is crucial.
+    
+    
+    
+     </p>
+</div>
+
+ <div>
+ <h4>Conclusion</h4>   
+                <p style="color:black">	
+As we've seen, reconnaissance allows us to find our target and to begin learning everything we can about them. Data gathering is the name of the game and the more time spent upfront learning everything you can about a target, the better you can customize and achieve a successful attack. 
+                    
+As part of my next post I'll discuss scanning. In this next phase, we  work to find any security holes we can use as part of our exploit.
+                    
+     </p>
+</div>
+                    
+                    
+                    
+						<div class="center">
+						<a href="Dissect2.html" class="button large scrolly" style="margin: auto">[UNDER CONSTRUCTION] Jump to Part 2 - Scanning</a>
+                        </div>
+					
+
+		
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
